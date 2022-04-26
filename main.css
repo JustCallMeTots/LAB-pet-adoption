@@ -1,10 +1,31 @@
 body {
-    background-color: blueviolet;
+    background-color: lightpink;
 }
 
-.cardContainer {
+.cards {
+    margin: 70px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: row wrap; 
+}
+.card {
+    display: flex;
+    
+}
+.type {
+    display: flex;
+    justify-content: center;
+}
+.name {
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#cardContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
