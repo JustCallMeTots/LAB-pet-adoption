@@ -1,11 +1,15 @@
 body {
-    background-color: lightpink;
+    background-color: lightcoral;
 }
 
 .cards {
     margin: 70px;
     display: flex;
     flex-direction: row wrap; 
+    border: solid purple 10px;
+}
+footer {
+    background-color: lightblue;
 }
 .card {
     display: flex;
@@ -14,6 +18,7 @@ body {
 .type {
     display: flex;
     justify-content: center;
+
 }
 .name {
     display: flex;
@@ -23,9 +28,18 @@ body {
     margin: 50px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 #cardContainer {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+#createBtnContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+.form-floating {
+    margin: 20px;
 }
